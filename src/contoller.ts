@@ -1,7 +1,7 @@
 import { combineProps } from 'rx-react-container'
 import { Subject, merge, map, scan, startWith, withLatestFrom } from 'rxjs'
 
-export const controller = (container) => {
+export const controller = () => {
     const onAdd = new Subject()
     const onMinus = new Subject()
     const onAddStep = new Subject()

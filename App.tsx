@@ -8,6 +8,7 @@ import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
 import Count from './src/screens/Count';
+import Direction from './src/screens/Direction';
 
 
 function App(): JSX.Element {
@@ -24,7 +25,8 @@ function App(): JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <Count />
+      {/* <Count /> */}
+      <Direction />
     </SafeAreaView>
   );
 }
